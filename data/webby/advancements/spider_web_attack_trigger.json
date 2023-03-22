@@ -1,0 +1,19 @@
+{
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:entity_hurt_player",
+            "conditions": {
+                "damage": {
+                    "type": {
+                        "source_entity": {
+                            "type": "minecraft:spider"
+                        }
+                    }
+                } 
+            }
+        }
+    },
+    "rewards": {
+        "function": "webby:spider_web_attack"
+    }
+}
